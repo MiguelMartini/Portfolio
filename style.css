@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins";
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #374b22;
+}
+.header-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  padding-top: 30px;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 150px;
+}
+
+.nav-header .header-a {
+  margin: 0 52px; 
+}
+
+.header-a {
+  color: #ede4de;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  transition: .4s ease;
+}
+.header-a::selection{
+    background-color: transparent;
+}
+.header-a:hover{
+    color: #EDC39E;
+}
+
+#main{
+    padding: 0em 0em 27em 0em;
+}
+.main-content {
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  color: #ede4de;
+  margin-top: 140px;
+  margin-left: 300px;
+}
+.tittle {
+  font-size: 80px;
+}
+.subTitle {
+  font-size: 30px;
+}
+
+.links {
+  display: flex;
+  gap: 0px 40px;
+  margin-top: 20px;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.btn1 {
+  background-color: #ede4de;
+  border-radius: 8px;
+  padding: 16px 32px;
+  /* offset-x | offset-y | blur-radius | spread-radius | color */
+  box-shadow: 0px 4px 15px 12px rgba(0, 0, 0, .2);
+  cursor: pointer;
+  text-decoration: none;
+  color: #374b22;
+  font-weight: 700;
+  transition: .4s ease;
+}
+
+.btn1:hover{
+  background-color: #514028;
+  color: #EDC39E;
+  box-shadow: 0px 4px 20px 12px rgba(0, 0, 0, .4);
+}
+.btn1::selection{
+    color: #374b22;
+    background-color: transparent;
+}
+.btn2 {
+  background-color: #ede4de;
+  border-radius: 8px;
+  padding: 16px 32px;
+  box-shadow: 0px 4px 15px 12px rgba(0, 0, 0, .2);
+  cursor: pointer;
+  text-decoration: none;
+  color: #374b22;
+  font-weight: 700;
+  transition: .4s ease;
+}
+.btn2:hover{
+  background-color: #EDC39E;
+  color: #514028;
+  box-shadow: 0px 4px 20px 12px rgba(0, 0, 0, .4);
+}
+.btn2::selection{
+    color: #374b22;
+    background-color: transparent;
+}
+::selection{
+    color: #374b22;
+    background-color: #EDC39E;
+}
+
+#sobre{
+    display: flex;
+    align-items: center;
+    padding: 10em 15em 10em 15em;
+    background-color: #EDECED;
+}
