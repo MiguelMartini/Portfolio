@@ -4,6 +4,9 @@
   margin: 0;
   padding: 0;
 }
+html{
+  scroll-behavior: smooth;
+}
 body {
   background-color: #374b22;
 }
@@ -32,7 +35,7 @@ body {
   color: #ede4de;
   margin: 20px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 500;
   transition: .4s ease;
 }
@@ -46,6 +49,7 @@ body {
 #main{
     padding: 0em 0em 27em 0em;
 }
+
 .main-content {
   display: flex;
   align-items: center;
@@ -118,9 +122,42 @@ body {
     background-color: #EDC39E;
 }
 
+/* Section Sobre */
 #sobre{
+  background-color: #EDECED;
+}
+.sobre-content{
     display: flex;
     align-items: center;
-    padding: 10em 15em 10em 15em;
-    background-color: #EDECED;
+    padding: 10em 1em 10em 15em;
+}
+.text-sobre{
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 60px;
+  color: #374b22;
+  padding: 2em 0em 1em 0em;
+}
+
+
+/* Section trabalhos */
+.text-trabalho{
+  display: flex;
+  justify-content: center;
+  padding: 100px 0px 100px 0px;
+  font-size: 60px;
+  color: #EDC39E;
+  font-weight: 700;
+}
+
+
+.trabalhos-content{
+  padding: 100px 0px 120px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.imgWork{
+  width: 500px;
 }
