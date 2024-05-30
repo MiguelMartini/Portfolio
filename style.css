@@ -123,13 +123,21 @@ body {
 }
 
 /* Section Sobre */
+/* (top, right, bottom, left) */
 #sobre{
   background-color: #EDECED;
+  padding: 1em 15em 6em 15em;
 }
 .sobre-content{
     display: flex;
     align-items: center;
-    padding: 10em 1em 10em 15em;
+    flex-direction: column;
+    text-indent: 1em;
+    /* padding: 10em 1em 10em 15em; */
+}
+.paragrafo{
+  font-size: 20px;
+  padding-bottom: 1em;
 }
 .text-sobre{
   display: flex;
@@ -137,7 +145,7 @@ body {
   font-weight: 700;
   font-size: 60px;
   color: #374b22;
-  padding: 2em 0em 1em 0em;
+  padding: 1em 0em 1em 0em;
 }
 
 
@@ -160,4 +168,19 @@ body {
 }
 .imgWork{
   width: 500px;
+}
+
+
+/* Section Contato */
+#contato{
+  background-color: #EDECED;
+  padding: 1em 15em 6em 15em;
+}
+.text-contato{
+  display: flex;
+  justify-content: center;
+  padding: 100px 0px 100px 0px;
+  font-size: 60px;
+  color: #374b22;
+  font-weight: 700;
 }
