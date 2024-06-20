@@ -10,6 +10,7 @@ html{
 body {
   background-color: #374b22;
 }
+
 .header-container {
   display: flex;
   justify-content: center; 
@@ -32,6 +33,7 @@ body {
 }
 
 .header-a {
+    text-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
   color: #ede4de;
   margin: 20px;
   text-decoration: none;
@@ -62,9 +64,11 @@ body {
 }
 .tittle {
   font-size: 80px;
+  text-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
 }
 .subTitle {
   font-size: 30px;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
 }
 
 .links {
@@ -127,6 +131,7 @@ body {
 #sobre{
   background-color: #EDECED;
   padding: 1em 15em 6em 15em;
+  text-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
 }
 .sobre-content{
     display: flex;
@@ -136,6 +141,7 @@ body {
     /* padding: 10em 1em 10em 15em; */
 }
 .paragrafo{
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
   font-size: 20px;
   padding-bottom: 1em;
 }
@@ -149,27 +155,67 @@ body {
 }
 
 
-/* Section trabalhos */
+/* Section projetos com modal  */
+
 .text-trabalho{
   display: flex;
   justify-content: center;
   padding: 100px 0px 100px 0px;
   font-size: 60px;
   color: #EDC39E;
+  text-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
   font-weight: 700;
 }
-
-
 .trabalhos-content{
   padding: 100px 0px 120px 0px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
+/* Modal */
+.modal-header{
+  border: none;
+  background-color: #f7f7f7;
+}
+
+.modal-body{
+  display: flex;
+  flex-direction: column;
+  background-color: #EDECED;
+  color: #212529;
+}
+
 .imgWork{
   width: 500px;
 }
+.imgWork,.btnOpenModal{
+  border-radius: 16px;
+}
+.btnOpenModal{
+  border: none;
+  box-shadow: 10px 10px 20px 12px rgba(0, 0, 0, 0.2);
+}
+#openM{
+  transition: opacity 0.3s ease;
+}
+#openM:hover{
+  opacity: 0.7;
 
+}
+.modal-footer{
+  border: none;
+  background-color: #f7f7f7;
+}
+.btn-secondary{
+  font-weight: bold;
+  background-color: #514028;
+  color: #ede4de;
+  border: none;
+}
+.btn-secondary:hover{
+  background-color: #EDC39E;
+  color: #374b22;
+}
 
 /* Section Contato */
 #contato{
@@ -182,5 +228,16 @@ body {
   padding: 100px 0px 100px 0px;
   font-size: 60px;
   color: #374b22;
+  text-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
   font-weight: 700;
+}
+
+/* Form box */
+.form-box{
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  background-color: red;
+  border-radius: 10px;
+  width: 50%;
 }
