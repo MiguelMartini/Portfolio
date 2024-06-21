@@ -237,7 +237,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 30px;
-  background-color: red;
+  background-color: #ede4de;
   border-radius: 10px;
   width: 50%;
 }
