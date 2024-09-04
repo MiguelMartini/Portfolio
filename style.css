@@ -91,17 +91,13 @@ body {
   font-weight: 700;
   transition: .4s ease;
 }
-
 .btn1:hover{
   background-color: #514028;
   color: #EDC39E;
   box-shadow: 0px 4px 20px 12px rgba(0, 0, 0, .4);
   transform:scale(0.9);
 }
-.btn1::selection{
-    color: #374b22;
-    background-color: transparent;
-}
+
 .btn2 {
   background-color: #ede4de;
   border-radius: 8px;
@@ -118,14 +114,6 @@ body {
   color: #514028;
   box-shadow: 0px 4px 20px 12px rgba(0, 0, 0, .4);
   transform:scale(0.9);
-}
-.btn2::selection{
-    color: #374b22;
-    background-color: transparent;
-}
-::selection{
-    color: #374b22;
-    background-color: #EDC39E;
 }
 
 /* Section Sobre */
@@ -227,6 +215,10 @@ body {
   justify-content: space-around;
 }
 /* Modal */
+.modal-dialog{
+  max-width: 1000px;
+  width: 100%;
+}
 .modal-header{
   border: none;
   background-color: #f7f7f7;
@@ -235,8 +227,13 @@ body {
 .modal-body{
   display: flex;
   flex-direction: column;
+  align-items: center;
   background-color: #EDECED;
   color: #212529;
+}
+.imgStyle{
+  width: 700px;
+  padding: 10px 0px 16px 0px;
 }
 
 .imgWork{
@@ -296,12 +293,12 @@ body {
 .contatosLinks{
   font-size: 30px;
   text-decoration: none;
+  padding-top: 30px;
 }
 .contatoBtn{
   background-color: #ede4de;
   border-radius: 8px;
   padding: 16px 32px;
-  /* offset-x | offset-y | blur-radius | spread-radius | color */
   box-shadow: 0px 4px 15px 12px rgba(0, 0, 0, .2);
   cursor: pointer;
   text-decoration: none;
@@ -311,9 +308,7 @@ body {
   border: none;
   margin-right: 30px;
   transition: .3s ease;
-}
-.contatoBtn:last-child{
-  margin-right: 0px;
+  transition: .4s ease;
 }
 
 .contatoBtn:hover{
@@ -321,5 +316,118 @@ body {
   background-color: #374b22;
   color: #ede4de;
 }
+.contatoLinkBTN{
+  text-decoration: none;
+  color: #374b22;
+}
+.contatoLinkBTN:hover{
+  color: #ede4de;
+}
 
-/* Form box */
+
+/* responsividade */
+@media screen and (max-width: 414px) {
+  .header-container {
+    padding-top: 20px;
+    flex-direction: column;
+  }
+
+  .logo {
+    width: 120px;
+  }
+
+  .nav-header {
+    flex-direction: column;
+  }
+
+  .nav-header .header-a {
+    margin: 10px 0;
+    font-size: 20px;
+  }
+
+  .name {
+    margin-top: 100px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .tittle {
+    font-size: 50px;
+  }
+
+  .subTitle {
+    font-size: 20px;
+  }
+
+  .links {
+    flex-direction: column;
+    gap: 20px 0;
+    margin-top: 10px;
+  }
+
+  .btn1, .btn2 {
+    font-size: 20px;
+  }
+
+  #sobre {
+    padding: 1em 2em 4em 2em;
+  }
+
+  .text-sobre {
+    font-size: 40px;
+  }
+
+  .paragrafo {
+    font-size: 18px;
+  }
+
+  .text-trabalho {
+    font-size: 40px;
+    padding: 50px 0px 20px 0px;
+  }
+
+  .pOtherWorks {
+    padding: 0px 0px 20px 0px;
+  }
+
+  .pAnotherWorks {
+    font-size: 18px;
+  }
+
+  .trabalhos-content {
+    flex-direction: column;
+    padding: 50px 0px 60px 0px;
+  }
+
+  .modal-dialog {
+    max-width: 350px;
+  }
+
+  .imgStyle {
+    width: 100%;
+    padding: 10px 0px 16px 0px;
+  }
+
+  .imgWork {
+    width: 100%;
+  }
+
+  #contato {
+    padding: 1em 2em 5em 2em;
+  }
+
+  .text-contato {
+    font-size: 40px;
+    padding: 50px 0px 20px 0px;
+  }
+
+  .contatosP {
+    font-size: 18px;
+  }
+
+  .contatoBtn {
+    padding: 12px 24px;
+    font-size: 18px;
+    margin-right: 15px;
+  }
+}
