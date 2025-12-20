@@ -22,7 +22,7 @@ function MainSection() {
         </div>
         <div className="inset-shadow-sm inset-shadow-neutral-500/50 bg-neutral-300 rounded-xl m-4 p-4 ">
           <p className="text-[#374B22] font-semibold pb-4">Tecnologias</p>
-          <div className="flex flex-row justify-center gap-4 flex-wrap">
+          <div className="grid grid-cols-4 gap-4 place-items-center">
             <DevIcon
               link={
                 "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg"
