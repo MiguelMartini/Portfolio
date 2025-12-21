@@ -3,13 +3,20 @@ import LinkBtn from "../../components/LinkBtn";
 
 function MainSection() {
   return (
-    <div className="bg-[#EDECED] pt-6 pb-10 flex flex-col items-center justify-center gap-6">
-      <div className="flex flex-col">
-        <div className="flex flex-col items-start p-6">
-          <h1 className="text-4xl font-bold mb-6 text-[#374B22]">
+    <div className="bg-[#EDECED] pt-6 pb-10 flex flex-col gap-6">
+      <div
+        className="flex flex-col     
+      lg:justify-between lg:mt-16
+      "
+      >
+        <div className="flex flex-col items-start p-6 lg:ml-30">
+          <h1
+            className="text-4xl font-bold mb-6 text-[#374B22]
+          lg:text-7xl"
+          >
             Miguel Kauling Martini
           </h1>
-          <div className="flex flex-col pl-2">
+          <div className="flex flex-col pl-2 lg:text-2xl lg:pl-10">
             <ul className="list-disc">
               <li className="font-medium text-[#374B22]">
                 Analista e Desenvolvedor de Sistemas Web
@@ -20,9 +27,14 @@ function MainSection() {
             </ul>
           </div>
         </div>
-        <div className="inset-shadow-sm inset-shadow-neutral-500/50 bg-neutral-300 rounded-xl m-4 p-4 ">
-          <p className="text-[#374B22] font-semibold pb-4">Tecnologias</p>
-          <div className="grid grid-cols-4 gap-4 place-items-center">
+        <div
+          className="inset-shadow-sm inset-shadow-neutral-500/50 bg-neutral-300 rounded-xl m-4 p-4 lg:px-20
+          max-w-xl mx-auto"
+        >
+          <p className="text-[#374B22] font-semibold pb-4 lg:text-2xl">
+            Tecnologias
+          </p>
+          <div className="grid grid-cols-4 gap-4 place-items-center lg:grid-cols-6">
             <DevIcon
               link={
                 "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg"
