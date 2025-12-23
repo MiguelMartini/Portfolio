@@ -21,21 +21,25 @@ function ProjectsSection() {
             srcImg={microsysImg}
             alt={"Projeto MicroSys"}
             title={"MicroSys"}
+            href={"https://github.com/MiguelMartini/microsys"}
           />
           <ProjectCard
             srcImg={senacFoodImg}
             alt={"Projeto SenacFood"}
             title={"SenacFood"}
+            href={"https://github.com/MiguelMartini/senacFoodBackend"}
           />
           <ProjectCard
             srcImg={sportFinder}
             alt={"Projeto SportFinder"}
             title={"SportFinder"}
+            href={"https://github.com/MiguelMartini/SportFinderFront"}
           />
           <ProjectCard
             srcImg={ricardinhoMotos}
             alt={"Projeto Ricardinho Motos"}
             title={"Ricardinho Motos"}
+            href={"https://github.com/MiguelMartini/RicardinhoMotos"}
           />
         </div>
       </div>
