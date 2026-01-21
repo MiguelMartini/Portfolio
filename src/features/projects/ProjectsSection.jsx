@@ -12,7 +12,7 @@ function ProjectsSection() {
     lg:px-30 lg:py-10"
       >
         <div className="flex gap-6">
-          <h1 className="text-3xl font-bold mb-6 lg:text-5xl">Projetos</h1>
+          <h1 className="text-3xl font-bold mb-6 lg:text-5xl" id="projetos">Projetos</h1>
         </div>
         <div className="flex flex-col gap-6
         lg:grid lg:grid-cols-2
