@@ -30,7 +30,7 @@ function Header() {
           </a>
 
           <a
-            href="#trabalhos"
+            href="#projetos"
             className="hover:text-[#FCC49E] transition-colors"
           >
             Projetos

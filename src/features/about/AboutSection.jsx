@@ -9,7 +9,7 @@ const AboutSection = () => {
       <div>
         <h1
           className="text-3xl font-bold mb-6 text-[#374B22] 
-            lg:text-5xl"
+            lg:text-5xl" id="sobre"
         >
           Sobre
         </h1>

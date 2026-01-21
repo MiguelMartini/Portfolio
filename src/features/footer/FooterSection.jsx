@@ -7,7 +7,7 @@ function FooterSection() {
     lg:px-30 lg:py-20'>
       <div>
         <h1 className='text-3xl font-bold mb-6 text-[#374B22] 
-            lg:text-5xl'>Contato</h1>
+            lg:text-5xl' id='contato'>Contato</h1>
       </div>
       <div>
         <p className='text-base
