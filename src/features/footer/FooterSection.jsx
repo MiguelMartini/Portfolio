@@ -24,7 +24,7 @@ function FooterSection() {
         <LinkBtn link={"https://github.com/MiguelMartini"} name={"GitHub"} />
       </div>
       <div className='flex justify-center text-center text-sm mt-20'>
-        <p className='text-[#4d4d69]'>© 2025 Streaming. Todos os direitos reservados. Proibida a reprodução, distribuição ou qualquer outra forma de utilização sem autorização prévia.</p>
+        <p className='text-[#4d4d69]'>© 2025 Miguel Kauling Martini. Todos os direitos reservados. Proibida a reprodução, distribuição ou qualquer outra forma de utilização sem autorização prévia.</p>
       </div>
     </div>
   )
