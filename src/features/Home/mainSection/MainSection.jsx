@@ -1,5 +1,5 @@
-import DevIcon from "../../components/DevIcon";
-import LinkBtn from "../../components/LinkBtn";
+import DevIcon from "../../../components/DevIcon";
+import LinkBtn from "../../../components/LinkBtn";
 
 function MainSection() {
   return (

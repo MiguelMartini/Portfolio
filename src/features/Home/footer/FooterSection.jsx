@@ -1,5 +1,5 @@
 import React from 'react'
-import LinkBtn from '../../components/LinkBtn'
+import LinkBtn from '../../../components/LinkBtn'
 
 function FooterSection() {
   return (
