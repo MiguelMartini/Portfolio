@@ -1,8 +1,8 @@
-import ProjectCard from "../../components/ProjectCard";
-import microsysImg from "../../assets/microsys.png";
-import senacFoodImg from "../../assets/senacFood.png";
-import sportFinder from "../../assets/sportFinder.png";
-import ricardinhoMotos from "../../assets/ricardinhoMotos.png";
+import ProjectCard from "../../../components/ProjectCard";
+import microsysImg from "../../../assets/microsys.png";
+import senacFoodImg from "../../../assets/senacFood.png";
+import sportFinder from "../../../assets/sportFinder.png";
+import ricardinhoMotos from "../../../assets/ricardinhoMotos.png";
 
 function ProjectsSection() {
   return (
