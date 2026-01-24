@@ -36,7 +36,7 @@ function SenacFood() {
       <Header/>
       <CarouselSection title={"SenacFood"} imgs={imgs}/>
       <About texts={texts}/>
-      <Dev title={"Desenvolvimento"} text={"Fui responsável por desenvolver o Backend da aplicação, onde fiz levantamentos de requisitos, modelo relacional de banco de dados, integração com modelos de inteligência Artificial e testes manuais da aplicação."} techs={"Tecnologias utilizadas: PHP, Laravel, MySQL, Git, GitHub, Insomnia"} techIcons={techs}/>
+      <Dev title={"Desenvolvimento"} text={"Fui responsável por desenvolver o Backend da aplicação, onde fiz levantamentos de requisitos, modelo relacional de banco de dados, integração com modelos de inteligência Artificial e testes manuais da aplicação."} techs={"Tecnologias utilizadas: PHP, Laravel, MySQL, Git, GitHub, Insomnia"} techIcons={techs} repoTitle={"SenacFood"} repoLink={"https://github.com/MiguelMartini/senacFoodBackend.git"}/>
       <FooterSection/>
     </div>
   )

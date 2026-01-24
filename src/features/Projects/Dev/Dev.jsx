@@ -1,7 +1,7 @@
 import DevIcon from "@/components/DevIcon";
 import React from "react";
 
-function Dev({ title, text, techs, techIcons }) {
+function Dev({ title, text, techs, techIcons, repoTitle, repoLink }) {
   return (
     <div
       className="bg-[#374B22] text-[#EDECED] py-10 px-6 
@@ -21,6 +21,25 @@ function Dev({ title, text, techs, techIcons }) {
           >
             {text}
           </p>
+          <ul
+            className="text-[#EDECED]
+           text-base
+           leading-relaxed
+           text-justify
+           lg:text-xl
+           lg:leading-loose list-disc"
+          >
+            <li>
+              Repositório:{" "}
+              <a
+                href={repoLink}
+                className="underline text-gray-400"
+                target="_blank"
+              >
+                {repoTitle}
+              </a>
+            </li>
+          </ul>
           <div className="border-t-2 border-[#EDECED] mt-4 pt-4"></div>
           <p
             className="text-[#EDECED]
