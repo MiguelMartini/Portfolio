@@ -1,6 +1,4 @@
-import AboutSection from '../features/home/about/AboutSection'
-
-
+import AboutSection from '@/features/Home/about/AboutSection'
 import MainSection from '../features/Home/mainSection/MainSection'
 import ProjectsSection from '../features/Home/projects/ProjectsSection'
 import FooterSection from '../features/Layout/footer/FooterSection'
