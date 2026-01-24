@@ -1,8 +1,10 @@
 import AboutSection from '../features/home/about/AboutSection'
-import FooterSection from '../features/home/footer/FooterSection'
-import Header from '../features/home/header/Header'
-import MainSection from '../features/home/mainSection/MainSection'
-import ProjectsSection from '../features/home/projects/ProjectsSection'
+
+
+import MainSection from '../features/Home/mainSection/MainSection'
+import ProjectsSection from '../features/Home/projects/ProjectsSection'
+import FooterSection from '../features/Layout/footer/FooterSection'
+import Header from '../features/Layout/header/Header'
 
 function Home() {
   return (
