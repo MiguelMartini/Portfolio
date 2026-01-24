@@ -27,7 +27,7 @@ function ProjectsSection() {
             srcImg={senacFoodImg}
             alt={"Projeto SenacFood"}
             title={"SenacFood"}
-            href={"https://github.com/MiguelMartini/senacFoodBackend"}
+            href={"/senac"}
           />
           <ProjectCard
             srcImg={sportFinder}
