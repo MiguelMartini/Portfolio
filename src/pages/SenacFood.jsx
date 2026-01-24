@@ -5,12 +5,10 @@ import CarouselSection from '../features/Projects/Carousel/CarouselSection'
 import About from '@/features/Projects/ProjectAbout/About'
 
 import senacFood from "../assets/senacFood.png";
-import senacFood2 from "../assets/microsys.png";
 import Dev from '@/features/Projects/Dev/Dev'
 
 const imgs = [
   senacFood,
-  senacFood2
 ]
 
 const texts = [

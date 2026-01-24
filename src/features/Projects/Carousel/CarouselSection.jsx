@@ -27,6 +27,9 @@ function CarouselSection({ title, imgs }) {
                       className="w-full h-full object-cover rounded-xl shadow-xl"
                     />
                   </div>
+                  <div className="flex justify-center mt-4">
+                    <p className="text-[#EDECED] text-md lg:text-xl">{index+1} - {imgs.length}</p>
+                  </div>
                 </div>
               </CarouselItem>
             ))}
