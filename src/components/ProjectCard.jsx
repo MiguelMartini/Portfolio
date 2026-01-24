@@ -1,9 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function ProjectCard({ srcImg, alt, title, href }) {
-
   return (
-    <a href={href} className="cursor-pointer" target="_blank">
+    <Link to={href}
+    onClick={() => window.scrollTo(0, 0)}>
+      
       <div className="bg-[#EDECED] inset-shadow-sm inset-shadow-neutral-500/50 p-2 rounded-t-xl rounded-b-md lg:p-4">
         <div className="p-2 ">
           <img
@@ -16,7 +18,7 @@ function ProjectCard({ srcImg, alt, title, href }) {
           <p className="text-lg font-semibold text-[#374B22]">{title}</p>
         </div>
       </div>
-    </a>
+    </Link>
   );
 }
 
