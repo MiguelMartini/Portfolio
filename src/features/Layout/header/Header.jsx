@@ -7,7 +7,7 @@ function Header() {
       <div className="max-w-7xl mx-auto h-full px-6 flex items-center justify-between ">
         
         <a
-          href="https://miguelmartini.github.io/Portfolio/"
+          href="https://portfolio-miguelmartini.vercel.app/"
           className="flex items-center gap-2"
         >
           <img
