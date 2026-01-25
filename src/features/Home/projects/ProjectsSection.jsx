@@ -21,7 +21,7 @@ function ProjectsSection() {
             srcImg={microsysImg}
             alt={"Projeto MicroSys"}
             title={"MicroSys"}
-            href={"https://microsys-lp.vercel.app/"}
+            href={"/microsys"}
           />
           <ProjectCard
             srcImg={senacFoodImg}
