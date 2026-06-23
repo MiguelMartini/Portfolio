@@ -40,13 +40,7 @@ const AboutSection = () => {
            lg:text-xl
            lg:leading-loose"
         >
-          Após o término do ensino médio, em 2023 Miguel começou a cursar o
-          técnologo de Ánalise e Desenvolvimento de Sistemas, aprenedndo sobre
-          diversos assuntos relacionados a área de T.I, desde Administração,
-          Ética, até Programação Orientada a Objetos, Engenharia de Software,
-          Banco de Dados. Final de 2023, Miguel realizou o vestibular Unificado
-          da UFSC/IFSC/IFC, conseguindo aprovação no bacharelado de Ciência da
-          Computação IFSC.
+          Durante sua formação em Análise e Desenvolvimento de Sistemas (2023-2025), teve contato com diversos conceitos fundamentais da área de Tecnologia da Informação, incluindo Programação Orientada a Objetos, Engenharia de Software, Banco de Dados, Desenvolvimento Web, Gestão de Projetos, Ética e Administração. Ainda em 2023, foi aprovado no vestibular unificado UFSC/IFSC/IFC para o curso de Bacharelado em Ciência da Computação do IFSC, ampliando sua formação acadêmica e aprofundando seus conhecimentos em computação.
         </p>
         <p
           className="text-[#374B22]
@@ -57,12 +51,7 @@ const AboutSection = () => {
            lg:text-xl
            lg:leading-loose"
         >
-          Miguel K. Martini é designer gráfico e programador. Como Designer,
-          trabalhou como freelancer para algumas companhias e projetos pessoais,
-          utilizando ferramentas como: Photoshop, Canva, Figma. Como
-          programador, possui conhecimentos em desenvolvimento WEB, utilizando
-          tecnologias como HTML, css, JavaScript, React.JS, PHP, Laravel, Java,
-          Git e GitHub para versionamento, MySQL para banco de dados.
+          Como desenvolvedor, possui experiência no desenvolvimento de aplicações web, trabalhando com tecnologias como HTML, CSS, JavaScript, React.js, PHP, Laravel e Java. Também possui conhecimentos em versionamento de código com Git e GitHub, além de modelagem e gerenciamento de bancos de dados utilizando MySQL e PostgreSQL.
         </p>
       </div>
       <div className="flex justify-start items-start mt-9">
@@ -70,7 +59,7 @@ const AboutSection = () => {
           className="underline text-blue-500 cursor-pointer
                 lg:text-xl lg:font-medium"
         >
-          <a href="">Entre em contato</a>
+          <a href="#contato">Entre em contato</a>
         </p>
       </div>
     </div>

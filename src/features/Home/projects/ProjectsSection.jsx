@@ -3,6 +3,7 @@ import microsysImg from "../../../assets/microsys.png";
 import senacFoodImg from "../../../assets/senacFood.png";
 import sportFinder from "../../../assets/sportFinder.png";
 import ricardinhoMotos from "../../../assets/ricardinhoMotos.png";
+import protocolab from "../../../assets/protocolab.png";
 
 function ProjectsSection() {
   return (
@@ -40,6 +41,12 @@ function ProjectsSection() {
             alt={"Projeto Ricardinho Motos"}
             title={"Ricardinho Motos"}
             href={"https://github.com/MiguelMartini/RicardinhoMotos"}
+          />
+          <ProjectCard
+            srcImg={protocolab}
+            alt={"ProtocoLab"}
+            title={"ProtocoLab"}
+            href={"https://github.com/MiguelMartini/ProtocoLab-FrontEnd.git"}
           />
         </div>
       </div>
